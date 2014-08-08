@@ -1,0 +1,8 @@
+-Open in Visual Studio and run program
+-Select filepath to project, language type, and type of export
+-"Glossary" pulls a very messy list of all strings of specified language, but allows for quick "ctrl-f" searches within the text editor
+-"Standard" pulls strings out, throws them into a new excel document, and removes any duplicate strings for a nice readable format for translators
+
+Note: Currently, code looks for a "Glossary" or "Standard" folder within path, as per request when I created it.
+Also looks for designated language folders in path, such as "Spanish" if you choose "ESN". Can be modified to work
+universally with a few small changes.
